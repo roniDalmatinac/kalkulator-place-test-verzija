@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.thymeleaf.org">
+
+<head>
+<title>Thymeleaf Demo</title>
+<!-- reference CSS file -->
+<link rel="stylesheet"
+      th:href="@{/css/demo.css}"/>
+</head>
+
+<body>
+
+<p th:text="'OsobniOdbitak.getVrijeBruto() ' + ${getVrijeBruto}" class="funny"/>
+<p th:text="'Employee ' + ${employee}" class="funny"/>
+<p th:text="'Poèetna vrijednost bruta ' + ${PocetniBruto}" class="funny"/>
+
+<p th:text="'mirovinsko1 ' + ${mirovinsko1}" class="funny"/>
+<p th:text="'mirovinsko2 ' + ${mirovinsko2}" class="funny"/>
+
+<p th:text="'Ukupna olakšica ' + ${ukupnaOlaksica}" class="funny"/>
+
+<p th:text="'osnovicaZaObracunPoreza ' + ${osnovicaZaObracunPoreza}" class="funny"/>
+
+<p th:text="'Porez po stopi 24% ' + ${p24}" class="funny"/>
+<p th:text="'Porez po stopi 36% ' + ${p36}" class="funny"/>
+
+<p th:text="'Ukupno Porezi ' + ${poreziUkupno}" class="funny"/>
+<p th:text="'Prirez ' + ${prirez}" class="funny"/>
+<p th:text="'Ukupni porez i prirez ' + ${UkupnoPorezIPrirez}" class="funny"/>
+
+
+<p th:text="'Bruto 2: ukupniTrosakPlace ' + ${ukupniTrosakPlace}" class="funny"/>
+
+<p th:text="'Doprinos za zdravstveno osiguranje 16,50% ' + ${zdravstveno}" class="funny"/>
+<p th:text="'Ukupno doprinosi na bruto ' + ${zdravstveno}" class="funny"/>
+
+
+<p th:text="'broj clanova' + ${clanovi}" class="funny"/>
+<p th:text="'broj djece' + ${djeca}" class="funny"/>
+
+<p th:text="'postotak prireza' + ${VrijePrireza}" class="funny"/>
+
+
+
+<p th:text="'netoPlaca ' + ${netoPlaca}" class="funny"/>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
